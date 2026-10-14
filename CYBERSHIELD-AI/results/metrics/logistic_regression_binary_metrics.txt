@@ -1,0 +1,7 @@
+Logistic Regression - Binary Attack Detection
+============================================================
+Accuracy  : 0.9133
+Precision : 0.6689
+Recall    : 0.9647
+F1-Score  : 0.7900
+ROC-AUC   : 0.9812

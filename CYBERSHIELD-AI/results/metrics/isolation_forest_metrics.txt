@@ -1,0 +1,21 @@
+Isolation Forest - Anomaly Detection Evaluation
+=======================================================
+Precision : 0.6234
+Recall    : 0.5825
+F1 Score  : 0.6023
+
+Confusion Matrix
+=======================================================
+[[388519  29948]
+ [ 35532  49578]]
+
+Classification Report
+=======================================================
+              precision    recall  f1-score   support
+
+      BENIGN       0.92      0.93      0.92    418467
+      ATTACK       0.62      0.58      0.60     85110
+
+    accuracy                           0.87    503577
+   macro avg       0.77      0.76      0.76    503577
+weighted avg       0.87      0.87      0.87    503577

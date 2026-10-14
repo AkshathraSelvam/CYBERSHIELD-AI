@@ -1,0 +1,12 @@
+
+Random Forest - Binary Attack Detection
+
+Accuracy  : 0.9989
+Precision : 0.9944
+Recall    : 0.9989
+F1-Score  : 0.9966
+ROC-AUC   : 1.0000
+
+Confusion Matrix:
+[[ 85015     95]
+ [   482 417985]]

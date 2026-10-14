@@ -1,0 +1,31 @@
+Multiclass Random Forest Evaluation
+=============================================
+Accuracy        : 0.9941
+Macro Precision : 0.8210
+Macro Recall    : 0.8783
+Macro F1        : 0.8226
+Weighted F1     : 0.9957
+
+Classification Report
+=============================================
+                        precision    recall  f1-score   support
+
+                BENIGN       1.00      0.99      1.00    418467
+                   Bot       0.16      0.99      0.27       390
+                  DDoS       1.00      1.00      1.00     25599
+         DoS_GoldenEye       0.99      1.00      0.99      2056
+              DoS_Hulk       0.99      1.00      1.00     34538
+      DoS_Slowhttptest       0.98      0.99      0.99      1046
+         DoS_Slowloris       0.99      0.99      0.99      1077
+           FTP_Patator       1.00      1.00      1.00      1186
+            Heartbleed       1.00      1.00      1.00         1
+          Infiltration       0.83      0.71      0.77         7
+              PortScan       0.99      1.00      0.99     18139
+           SSH_Patator       1.00      1.00      1.00       643
+  WebAttack_BruteForce       0.76      0.56      0.64       294
+WebAttack_SQLInjection       0.33      0.25      0.29         4
+         WebAttack_XSS       0.30      0.68      0.42       130
+
+              accuracy                           0.99    503577
+             macro avg       0.82      0.88      0.82    503577
+          weighted avg       1.00      0.99      1.00    503577
